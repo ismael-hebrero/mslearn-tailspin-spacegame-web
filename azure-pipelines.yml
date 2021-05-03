@@ -1,8 +1,8 @@
 trigger:
 - '*'
 variables:
-  buildConfiguration: Release
-  releaseBranchName: release
+  buildConfiguration: scan-open-source
+  releaseBranchName: scan-open-source
 stages:
 - stage: Build
   displayName: Build the web application
